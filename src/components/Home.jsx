@@ -19,6 +19,10 @@ export default function Home() {
   // check for the online status using useOnline Hooks
   const isOnline = useOnline();
 
+
+
+  
+
   useEffect(() => {
     const fetchData = () => {
       fetch(REACT_APP_PRODUCTS_API)
