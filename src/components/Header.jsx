@@ -14,7 +14,7 @@ export default function Header() {
 
       <div className="flex justify-between items-center">
         <div className="text-2xl font-bold text-gray-800 dark:text-gray-200">
-          VirtuCart
+          SK Stor
         </div>
 
         {/* Toggle Button for Mobile View */}

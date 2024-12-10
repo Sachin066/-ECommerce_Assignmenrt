@@ -52,7 +52,7 @@ export default function Cart() {
         >
           Clear Cart
         </button>
-        {/* <button> */}
+
         <Link to='/checkout'
             className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 text-center mx-5 rounded w-1/4"
           
