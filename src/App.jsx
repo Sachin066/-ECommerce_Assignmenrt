@@ -34,7 +34,6 @@ export default function App() {
             <BrowserRouter>
 
               <div>
-                {/* <h1 className="font-bold text-xl">App is working</h1> */}
                 <Header />
               </div>
 

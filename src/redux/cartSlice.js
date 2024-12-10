@@ -8,13 +8,11 @@ const cartSlice = createSlice({
     reducers: {
         addToCart: (state,action)=>{// check for already added data
             let currentUser = JSON.parse(atob(localStorage.getItem('currentUser')))
-            // console.log('currentuser from localstoragne',currentUser);
-            // console.log('payload data',action.payload);
+            
             
             // check for already added data
             const isPresent =  state.items.filter((item)=>item.id === action.payload.id && currentUser.id === item.userId);
-            // console.log('ispresent', isPresent);
-            // console.log('addto cart called form slice',action.payload);
+
             
             if(isPresent.length == 0){
                 const combined = {

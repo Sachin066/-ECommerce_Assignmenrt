@@ -60,7 +60,7 @@ export default function Cart() {
           Place Order
         </Link>
 
-        {/* </button> */}
+
       </div>
     </div>
   );
